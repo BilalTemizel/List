@@ -23,7 +23,7 @@ namespace List.Models
             if (!optionsBuilder.IsConfigured)
             {
 
-                optionsBuilder.UseSqlServer("Server=dindapptr126-31.ptg.local;Database=INTERN;User Id=usr_intern;Password=%i1V@2E97Q49;TrustServerCertificate=True;");
+                optionsBuilder.UseSqlServer("CONNECTIONSTRING");
             }
         }
 
